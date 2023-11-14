@@ -1,0 +1,115 @@
+.gradient-background {
+    background: linear-gradient(300deg, #BCE29E, #FF8787, #E5EBB2);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.profile-img {
+    height: 600px;
+    width: 500px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.featurette-heading {
+    font-family: sans-serif;
+    font-size: 50px;
+}
+/* .background-title {
+    background-color: #EC8F5E;
+} */
+.card {
+    /* border: 3px solid black; */
+}
+.grid-container {
+    display: grid;
+    height: 70vh;
+    /* border: 3px solid green; */
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1.5fr;
+
+}
+.card img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.img-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.about-text p {
+  font-family:sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+a {
+  padding: 0;
+  margin: 0;
+}
+.shadow img {
+  transition: .5s ease;
+  }
+  .shadow img:hover{
+  box-shadow:
+  1px 1px #373737,
+  2px 2px #373737,
+  3px 3px #373737,
+  4px 4px #373737,
+  5px 5px #373737,
+  6px 6px #373737;
+  -webkit-transform: translateX(-3px);
+  transform: translateX(-3px);
+  transition: .5s ease;
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8C4B4;
+  }
+  .footer-card img {
+    height: 100px;
+  }
+  .about {
+    background-color: #E5EBB2;
+  }
+  .projects {
+    background-color: #E5EBB2;
+  }
+  .grid-container div {
+    background-color:  #E5EBB2;
+    border: none;
+  }
+  .fadein img{
+    opacity:0.5;
+    transition: 1s ease;
+    }
+    
+    .fadein img:hover{
+    opacity:1;
+    transition: 1s ease;
+    }
+      
+    
