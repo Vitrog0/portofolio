@@ -111,5 +111,8 @@ a {
     opacity:1;
     transition: 1s ease;
     }
+body {
+    overflow-x:hidden;
+}
       
     
